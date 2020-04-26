@@ -1,0 +1,15 @@
+n=int(input("Enter a number: "))
+a=n
+P=0
+while(n>0):
+    k=n%10
+    P=P*10+k
+
+    n=n//10
+
+reverse=P
+print(reverse)
+if(P==a):
+    print("The NO. is Palindrome")
+else:
+    print("The No. is NOT Palindrome")
