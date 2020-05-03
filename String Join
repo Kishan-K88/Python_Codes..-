@@ -1,0 +1,15 @@
+def main():
+    k=input()
+   # print(k)
+    a=[]
+    while(True):
+        try:
+            p=input()
+        except:
+            break
+        a.append(p)
+    print(k.join(a),end="")
+
+ # Write code here 
+
+main()
