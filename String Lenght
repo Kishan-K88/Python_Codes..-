@@ -1,0 +1,9 @@
+a=input()
+print(len(a),end="")
+
+
+
+
+======================================
+INPUT: THus
+OUTPUT: 4
