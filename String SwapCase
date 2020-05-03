@@ -1,0 +1,7 @@
+def main():
+    a=input().strip()
+    print(a.swapcase(),end="")
+
+ # Write code here 
+
+main()
