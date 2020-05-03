@@ -1,0 +1,7 @@
+def main():
+    a=input()
+    print(max(a),end="")
+
+ # Write code here 
+
+main()
