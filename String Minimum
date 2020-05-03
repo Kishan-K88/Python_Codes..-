@@ -1,0 +1,9 @@
+def main(): 
+    a = input() 
+    b = min(a.lower().replace(" ","")) 
+    c = min(a.replace(" ",""))
+    if b < c.lower(): 
+        print(b,end="")
+    else: 
+        print(c,end="")
+main()
