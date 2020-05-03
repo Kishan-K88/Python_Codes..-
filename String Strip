@@ -1,5 +1,6 @@
 def main():
     a=input()
-    print(a.strip(),end="")
+    print(a.strip(),end="")   #Complete Strip --> Removes all spaces
+    #print(a.rstrip(),end="")  --> Right_Strip
 
 main()
