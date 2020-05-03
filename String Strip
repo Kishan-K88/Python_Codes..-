@@ -2,5 +2,7 @@ def main():
     a=input()
     print(a.strip(),end="")   #Complete Strip --> Removes all spaces
     #print(a.rstrip(),end="")  --> Right_Strip
+    #print(a.lstrip(),end="")  ---> Left_Strip
+
 
 main()
